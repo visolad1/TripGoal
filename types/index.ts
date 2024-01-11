@@ -1,0 +1,22 @@
+export interface IInfoCardObj{
+    id: number,
+    title: string,
+    description: string,
+    img: string
+}
+
+export interface IInfoCardTypes{
+    obj: IInfoCardObj
+}
+
+export interface ILocationCardObj{
+    title: string,
+    location: string,
+    rating: number,
+    price: string,
+    img: string
+}
+
+export interface ILocationCardTypes{
+    obj: ILocationCardObj
+}

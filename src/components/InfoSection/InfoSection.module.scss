@@ -1,0 +1,34 @@
+.wrapper{
+    width: 100%;
+    height: 100vh;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 120px;
+}
+
+.title{
+    font-size: 42px;
+    margin: 10px 0 20px 0;
+}
+
+.p{
+    width: 35%;
+}
+
+.cards{
+    height: 395px;
+    display: flex;
+    gap: 30px;
+    margin-top: 70px;
+}
+
+.card{
+    width: calc(100% / 3 - 30px);
+    height: 100%;
+}

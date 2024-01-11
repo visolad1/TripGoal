@@ -1,0 +1,50 @@
+@import '../../variables';
+
+.wrapper{
+    width: 980px;
+    height: 144px;
+    display: flex;
+    background-color: $white;
+    margin: 0 auto;
+    border-radius: 30px 0px 0px 30px;
+}
+
+.selectsWrapper{
+    width: 770px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.btn{
+    width: 210px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    background-color: $primary-blue;
+    color: $white;
+    font-weight: bold;
+    font-family: $ff-inter;
+    border-radius: 0px 30px 30px 0px;
+}
+
+.btn:hover {
+    background-color: $blue-dark;
+}
+
+.btn:active {
+    background-color: $blue-dark-btn-active;
+}
+
+.select{
+    color: $blue-dark;
+    font-family: $ff-inter;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.option{
+   color: $blue-dark;
+}
