@@ -3,4 +3,34 @@
     height: 100vh;
     background-color: #fff;
     padding-top: 120px;
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+
+.title{
+    font-size: 42px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.img{
+    max-width: 600px;
+}
+
+.p{
+    line-height: 28px;
+}
+
+.cards{
+    max-width: 315px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: 50px;
+}
+
+.card{
+    width: calc(50% - 15px);
 }
