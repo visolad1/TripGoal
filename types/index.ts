@@ -30,3 +30,14 @@ export interface IAboutInfoCardObj{
 export interface IAboutInfoCardTypes{
     obj: IAboutInfoCardObj
 }
+
+export interface ITestimonialCardObj{
+    id: number,
+    testimonial: string,
+    name: string,
+    designation: string
+}
+
+export interface ITestimonialCardTypes{
+    obj: ITestimonialCardObj
+}

@@ -5,6 +5,7 @@ import styles from './App.module.scss'
 import { InfoSection } from '../InfoSection'
 import { Location } from '../Location'
 import { About } from '../About'
+import { Testimonials } from '../Testimonials'
 
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
       <InfoSection />
       <Location />
       <About />
+      <Testimonials />
     </>
   )
 }
