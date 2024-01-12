@@ -7,6 +7,8 @@ import { Location } from '../Location'
 import { About } from '../About'
 import { Testimonials } from '../Testimonials'
 import { SocialFeed } from '../SocialFeed'
+import { ContactUs } from '../ContactUs'
+import { Footer } from '../Footer'
 
 function App() {
 
@@ -20,6 +22,8 @@ function App() {
       <About />
       <Testimonials />
       <SocialFeed />
+      <ContactUs />
+      <Footer />
     </>
   )
 }

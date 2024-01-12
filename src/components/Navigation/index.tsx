@@ -7,7 +7,7 @@ export const Navigation = () => {
         { id: 0, name: 'Home', link: '#home' },
         { id: 1, name: 'About', link: '#about' },
         { id: 2, name: 'Packages', link: '#' },
-        { id: 3, name: 'Contact Us', link: '#' },
+        { id: 3, name: 'Contact Us', link: '#contact-us' },
         { id: 4, name: 'FAQ', link: '#' }
     ]
 
