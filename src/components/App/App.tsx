@@ -6,6 +6,7 @@ import { InfoSection } from '../InfoSection'
 import { Location } from '../Location'
 import { About } from '../About'
 import { Testimonials } from '../Testimonials'
+import { SocialFeed } from '../SocialFeed'
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
       <Location />
       <About />
       <Testimonials />
+      <SocialFeed />
     </>
   )
 }
