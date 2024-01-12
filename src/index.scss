@@ -150,3 +150,8 @@ p{
     color: $blue-light;
     font-family: $ff-inter;
 }
+
+.slick-dots li.slick-active button::before{
+    color: $primary-blue;
+    opacity: 1;
+}

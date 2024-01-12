@@ -1,4 +1,5 @@
 // import React from 'react'
+import Slider from "react-slick";
 import styles from './Testimonials.module.scss'
 import { Container } from '../Container'
 import mapImg from '../../assets/imgs/map-img.svg'
@@ -35,6 +36,15 @@ export const Testimonials = () => {
         }
 
     ]
+    let settings = {
+        dots: true,
+        infinite: true,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 3000,
+        pauseOnHover: true
+    };
     return (
         <div className={styles.wrapper}>
             <Container>
@@ -48,8 +58,10 @@ export const Testimonials = () => {
                     <div className={styles.users}>
                         {userImages.map((img, i) => <img src={img} alt='user img' className={`${styles.user} ${styles[`user${i + 1}`]}`} />)}
                     </div>
-                    <div className={styles.testimonials}>
-                        <TestimonialCard obj={testimonialsInfo[0]} />
+                    <div className={styles.testimonialsSlide}>
+                        <Slider {...settings}>
+                            {testimonialsInfo.map(obj => <div className={styles.testimonial}><TestimonialCard obj={obj} /></div>)}
+                        </Slider>
                     </div>
                 </div>
             </Container>
