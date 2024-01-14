@@ -1,0 +1,14 @@
+@import '../../../variables';
+
+.btn{
+    box-shadow: 4px 4px 84px 0px #9c9c9c;
+    border-radius: 50%;
+}
+
+.icon:hover *{
+    fill: $primary-blue;
+}
+
+.btn:hover{
+    box-shadow: 4px 4px 84px 0px $primary-blue;
+}

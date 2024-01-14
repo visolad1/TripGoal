@@ -9,6 +9,7 @@ import { Testimonials } from '../Testimonials'
 import { SocialFeed } from '../SocialFeed'
 import { ContactUs } from '../ContactUs'
 import { Footer } from '../Footer'
+import { ButtonUp } from '../ui/ButtonUp'
 
 function App() {
 
@@ -24,6 +25,7 @@ function App() {
       <SocialFeed />
       <ContactUs />
       <Footer />
+      <div className={styles.btnUp}><ButtonUp /></div>
     </>
   )
 }
