@@ -54,7 +54,7 @@ export const Testimonials = () => {
                     <p className={styles.p}>What customers says about our service and guideline. Customers compliment is most important to upgradation of bussiness service </p>
                 </div>
                 <div className={styles.map}>
-                    <img src={mapImg} alt="map img" />
+                    <img src={mapImg} alt="map img" className={styles.bc_img} />
                     <div className={styles.users}>
                         {userImages.map((img, i) => <img key={i} src={img} alt='user img' className={`${styles.user} ${styles[`user${i + 1}`]}`} />)}
                     </div>

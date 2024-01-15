@@ -16,3 +16,10 @@
         width: 768px;
     }
 }
+
+@media screen and (max-width: 768px){
+    .wrapper{
+        width: 95%;
+        padding: 5px;
+    }
+}

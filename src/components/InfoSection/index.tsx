@@ -29,12 +29,13 @@ export const InfoSection = () => {
     ]
     return (
         <div className={styles.wrapper}>
-            <div className={styles.info}>
-                <h4 className={`subtitle ${styles.subtitle}`}>3 steps for the perfect trip</h4>
-                <h2 className={`title ${styles.title}`}>Find travel perfection</h2>
-                <p className={styles.p}>Naturally head of the class whenit comes to luxury travel  planning,bbecause we do more homework than anyone else</p>
-            </div>
             <Container>
+                <div className={styles.info}>
+                    <h4 className={`subtitle ${styles.subtitle}`}>3 steps for the perfect trip</h4>
+                    <h2 className={`title ${styles.title}`}>Find travel perfection</h2>
+                    <p className={styles.p}>Naturally head of the class whenit comes to luxury travel  planning,bbecause we do more homework than anyone else</p>
+                </div>
+
                 <div className={styles.cards}>
                     {infoCards.map(obj => <div className={styles.card} key={obj.id}><InfoCard obj={obj} /></div>)}
                 </div>

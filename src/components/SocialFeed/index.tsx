@@ -20,6 +20,7 @@ export const SocialFeed = () => {
         speed: 5000,
         pauseOnHover: false,
         autoplaySpeed: 2000,
+        adaptiveHeight: true
     };
     return (
         <div className={styles.wrapper}>
