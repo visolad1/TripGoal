@@ -39,6 +39,7 @@
 
 @media screen and (max-width: 1024px) {
     .wrapper{
+        width: 100%;
         padding-top: 70px;
     }
     
@@ -67,7 +68,8 @@
 
 @media screen and (max-width: 768px) {
     .card {
-        width: 100%;
+        min-width: none;
+        width: 300px;
     }
    
 }

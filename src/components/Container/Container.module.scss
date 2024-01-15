@@ -1,6 +1,6 @@
 .wrapper{
     width: 1170px;
-    padding: 15px;
+    padding: 20px;
     margin: 0 auto;
 }
 
@@ -19,7 +19,8 @@
 
 @media screen and (max-width: 768px){
     .wrapper{
-        width: 95%;
-        padding: 5px;
+        width: 100%;
+        padding: 15px;
     }
 }
+
