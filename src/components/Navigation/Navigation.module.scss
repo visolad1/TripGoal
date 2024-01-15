@@ -31,3 +31,31 @@
 .listItem a:hover{
     color: $primary-blue;
 }
+
+.burger{
+    display: none;
+}
+
+@media screen and (max-width: 768px){
+    .logoLink{
+        order: 1;
+    }
+
+    .btn{
+        order: 3;
+        padding: 13px 15px;
+    }
+
+    .burger{
+        display: block;
+        rotate: 90deg;
+        font-weight: bold;
+        font-size: 20px;
+    }
+
+    .list{
+        display: none;
+    }
+
+
+}

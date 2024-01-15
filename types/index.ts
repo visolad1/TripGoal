@@ -41,3 +41,7 @@ export interface ITestimonialCardObj{
 export interface ITestimonialCardTypes{
     obj: ITestimonialCardObj
 }
+
+export interface IListAdaptiveTypes{
+    setList: (newValue: string) => void
+}

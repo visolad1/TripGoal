@@ -1,0 +1,43 @@
+@import '../../../variables';
+
+.wrapper{
+    width: 100%;
+    height: 100%;
+    background-color: $black;
+    opacity: 0.9;
+    position: absolute;
+    font-family: $ff-inter;
+    top: 0;
+    left: 0;
+    padding: 30px 40px;
+}
+
+.listItem{
+    display: block;
+    width: 100%;
+    font-size: 18px;
+    font-weight: 900;
+    padding: 15px 20px;
+    color: $white;
+}
+
+.listItem:hover{
+    background-color: $white;
+    color: $primary-blue;
+}
+
+.closeBtn{
+    width: 30px;
+    height: 30px;
+    font-weight: 900;
+    background-color: $primary-blue;
+    color: $white;
+    position: absolute;
+    right: 30px;
+    margin-top: 10px;
+}
+
+.closeBtn:hover{
+    background-color: $white;
+    color: $primary-blue;
+}

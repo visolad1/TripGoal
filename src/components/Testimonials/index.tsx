@@ -56,11 +56,11 @@ export const Testimonials = () => {
                 <div className={styles.map}>
                     <img src={mapImg} alt="map img" />
                     <div className={styles.users}>
-                        {userImages.map((img, i) => <img src={img} alt='user img' className={`${styles.user} ${styles[`user${i + 1}`]}`} />)}
+                        {userImages.map((img, i) => <img key={i} src={img} alt='user img' className={`${styles.user} ${styles[`user${i + 1}`]}`} />)}
                     </div>
                     <div className={styles.testimonialsSlide}>
                         <Slider {...settings}>
-                            {testimonialsInfo.map(obj => <div className={styles.testimonial}><TestimonialCard obj={obj} /></div>)}
+                            {testimonialsInfo.map(obj => <div key={obj.id} className={styles.testimonial}><TestimonialCard obj={obj} /></div>)}
                         </Slider>
                     </div>
                 </div>
